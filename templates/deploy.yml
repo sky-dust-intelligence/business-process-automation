@@ -6,7 +6,7 @@ env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: './src/backend'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '18.16.1'
   AZURE_FUNCTIONAPP_PYTHON_PACKAGE_PATH: './src/backend/huggingface'
-  PYTHON_VERSION: '3.9'
+  PYTHON_VERSION: '3.10.8'
 
 
 jobs:
