@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sky Dust backend data-processing-automation",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
@@ -42,6 +42,6 @@
     "typescript": "^4.9.3"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.16.1"
   }
 }
