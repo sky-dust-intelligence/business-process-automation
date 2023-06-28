@@ -1,10 +1,10 @@
 on: [push]
 
 env:
-  AZURE_FUNCTIONAPP_NAME: <yourfunctionappname>    # set this to your application's name
+  AZURE_FUNCTIONAPP_NAME: '{{secrets.AZURE_FUNCTIONAPP_USERNAME}}'    # set this to your application's name
   AZURE_FUNCTIONAPP_NAME_PYTHON: 'huggingface${{ secrets.BPA_PROJECTNAME }}'
   AZURE_FUNCTIONAPP_PACKAGE_PATH: './src/backend'      # set this to the path to your web app project, defaults to the repository root
-  NODE_VERSION: '18.16'
+  NODE_VERSION: '18.16.1'
   AZURE_FUNCTIONAPP_PYTHON_PACKAGE_PATH: './src/backend/huggingface'
   PYTHON_VERSION: '3.9'
 
