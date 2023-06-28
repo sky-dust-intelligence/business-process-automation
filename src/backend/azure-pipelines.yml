@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-- master
+- main
 
 variables:
 
@@ -74,7 +74,7 @@ stages:
           -formrecEndpoint $(formrecendpoint)
         csmFile: 'templates/main.json' # created by bash script
         deploymentMode: Incremental
-    
+
 
 
 - stage: Build
