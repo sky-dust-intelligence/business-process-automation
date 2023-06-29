@@ -1,0 +1,8 @@
+{
+    "azureFunctions.projectSubpath": "src/backend/huggingface",
+    "azureFunctions.deploySubpath": "src/backend/huggingface",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen"
+}

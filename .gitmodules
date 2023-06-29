@@ -1,3 +1,12 @@
 [submodule "gpt-rag"]
 	path = gpt-rag
 	url = https://github.com/Azure/gpt-rag.git
+[submodule "gpt-rag-ingestion"]
+	path = gpt-rag-ingestion
+	url = https://github.com/Azure/gpt-rag-ingestion.git
+[submodule "gpt-rag-orchestrator"]
+	path = gpt-rag-orchestrator
+	url = https://github.com/Azure/gpt-rag-orchestrator.git
+[submodule "gpt-rag-frontend"]
+	path = gpt-rag-frontend
+	url = https://github.com/Azure/gpt-rag-frontend.git
